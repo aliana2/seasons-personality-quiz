@@ -1,17 +1,20 @@
 /* STYLE SECTIONING TAGS */
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 /* STYLE TEXT */
 h1 {
   font-style: italic;
-  color: #0d9c90;
+  color: #775d98;
 }
 
 h2 {
-  margin-top: 2em; 
+  margin-top: 2em;
 }
 
 /* STYLE FLEX CONTAINER */
@@ -25,14 +28,28 @@ h2 {
 /* STYLE FLEX ITEM */
 .answer-choice {
   margin: 5px;
+  padding: 10px;
+}
+
+.answer-choice:hover {
+  background-color: #e0f5eb;
+  border-style: solid;
+  border-width: 1px;
 }
 
 /* STYLE IMAGES */
 .answer-choice img {
-  height: 10em;
+  height: 11em; 
+  min-width: 11em;
+  overflow: hidden;
 }
 
 /* STYLE BUTTON */
 button { 
   margin-top: 5px;
+}
+
+button:hover {
+  background-color: #eee9f7;
+  border-radius:5%;
 }
